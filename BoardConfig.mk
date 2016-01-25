@@ -38,3 +38,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/sony/sirius
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     device/sony/sirius/sepolicy
+
+# Twrp
+TW_THEME := portrait_hdpi
+DEVICE_RESOLUTION := 1080x1920
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_NO_SCREEN_BLANK := true
